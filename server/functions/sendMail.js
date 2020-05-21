@@ -15,7 +15,7 @@ let transporter = nodemailer.createTransport({
 
  const sendMail = (text, subject, to) => new Promise(resolve => {
     var mailOptions = {
-        from: `Hadar Alon Website <hadaraloncode@gmail.com>`,
+        from: `Hadar Alon Website <hadaralonweb@gmail.com>`,
         to,
         subject,
         text,
